@@ -92,5 +92,12 @@
   "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "9 Blue 1 Gold",
 
   "effect.tacz_engineer_asset_pack.nitrated_mobeffect": "Nitrated",
-  "effect.tacz_engineer_asset_pack.nitrated_mobeffect.description": "You might explode under certain circumstances."
+  "effect.tacz_engineer_asset_pack.nitrated_mobeffect.description": "You might explode under certain circumstances.",
+
+  "item.immersiveengineering.empty_casing": "Pistol Casing",
+  "item.immersiveengineering.empty_shell": "Buckshot Casing",
+  "item.immersiveengineering.gunpart_hammer": "Gun Hammer",
+  "item.immersiveengineering.gunpart_barrel": "Steel Smoothbore Barrel",
+
+  "desc.immersiveengineering.info.blueprint.test_category": "Test Category"
 }

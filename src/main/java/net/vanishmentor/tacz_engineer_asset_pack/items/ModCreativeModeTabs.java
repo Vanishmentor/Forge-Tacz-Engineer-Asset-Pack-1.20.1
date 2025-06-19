@@ -118,6 +118,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ItemRegistryHandler.RULER_METAL.get());
                         pOutput.accept(ItemRegistryHandler.RULER_PLASTIC.get());
 
+                        //----------IE---------
+                        pOutput.accept(ItemRegistryHandler.RULER_PLASTIC.get());
+
+
 
                     })
                     .build());

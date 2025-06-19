@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:craftingtable"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "ccc"
+  ],
+  "result": {
+    "item": "immersiveengineering:workbench"
+  },
+  "show_notification": true
+}
