@@ -3,12 +3,8 @@ package net.vanishmentor.tacz_engineer_asset_pack;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.crafting.Recipe;
-import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.RecipesUpdatedEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -27,7 +23,6 @@ import net.vanishmentor.tacz_engineer_asset_pack.items.ModCreativeModeTabs;
 import net.vanishmentor.tacz_engineer_asset_pack.items.ItemRegistryHandler;
 import net.vanishmentor.tacz_engineer_asset_pack.mobEffects.MobEffectRegistryHandler;
 import org.slf4j.Logger;
-import java.util.Map;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TaczEngineerAssetPack.MOD_ID)
