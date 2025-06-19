@@ -1,6 +1,8 @@
 package net.vanishmentor.tacz_engineer_asset_pack;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,8 +16,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.vanishmentor.tacz_engineer_asset_pack.item.ModCreativeModeTabs;
-import net.vanishmentor.tacz_engineer_asset_pack.item.ModItems;
+import net.vanishmentor.tacz_engineer_asset_pack.blocks.BlockRegistryHandler;
+import net.vanishmentor.tacz_engineer_asset_pack.fluids.FluidRegistryHandler;
+import net.vanishmentor.tacz_engineer_asset_pack.fluids.FluidTypeRegistryHandler;
+import net.vanishmentor.tacz_engineer_asset_pack.items.ModCreativeModeTabs;
+import net.vanishmentor.tacz_engineer_asset_pack.items.ItemRegistryHandler;
+import net.vanishmentor.tacz_engineer_asset_pack.mobEffects.MobEffectRegistryHandler;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,7 +39,12 @@ public class TaczEngineerAssetPack
 
         ModCreativeModeTabs.register(modEventBus);
 
-        ModItems.register(modEventBus);
+        ItemRegistryHandler.register(modEventBus);
+        FluidTypeRegistryHandler.register(modEventBus);
+        BlockRegistryHandler.register(modEventBus);
+        FluidRegistryHandler.register(modEventBus);
+        MobEffectRegistryHandler.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -76,6 +87,8 @@ public class TaczEngineerAssetPack
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            ItemBlockRenderTypes.setRenderLayer(FluidRegistryHandler.SOURCE_NITRIC_ACID.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(FluidRegistryHandler.FLOWING_NITRIC_ACID.get(), RenderType.translucent());
         }
     }
 }

@@ -1,16 +1,19 @@
-package net.vanishmentor.tacz_engineer_asset_pack.item;
+package net.vanishmentor.tacz_engineer_asset_pack.items;
 
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegisterEvent;
 import net.minecraftforge.registries.RegistryObject;
 import net.vanishmentor.tacz_engineer_asset_pack.TaczEngineerAssetPack;
+import net.vanishmentor.tacz_engineer_asset_pack.fluids.FluidRegistryHandler;
 
-public class ModItems {
+public class ItemRegistryHandler {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TaczEngineerAssetPack.MOD_ID);
+
 
     //----------casings---------
     public static final RegistryObject<Item> CASING_RIFLE = ITEMS.register("casing_rifle",
@@ -54,7 +57,7 @@ public class ModItems {
     public static final RegistryObject<Item> MATERIAL_BARREL_SMOOTH_IRON = ITEMS.register("material_barrel_smooth_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_BASTONE = ITEMS.register("material_bastone",
-            () -> new Item(new Item.Properties()));
+            () -> new MaterialBAStoneItem(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_BLAZOPOWDER = ITEMS.register("material_blazopowder",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_CIRCUIT_CONTROLLER = ITEMS.register("material_circuit_controller",
@@ -136,13 +139,71 @@ public class ModItems {
     public static final RegistryObject<Item> MATERIAL_WIRE_NANOTUBE = ITEMS.register("material_wire_nanotube",
             () -> new Item(new Item.Properties()));
     //----------metal---------
+    public static final RegistryObject<Item> METAL_INGOT_CMA = ITEMS.register("metal_ingot_cma",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_INGOT_DURALUMINIUM = ITEMS.register("metal_ingot_duraluminium",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_PLATE_CMA = ITEMS.register("metal_plate_cma",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_PLATE_DURALUMINIUM = ITEMS.register("metal_plate_duraluminium",
+            () -> new Item(new Item.Properties()));
     //----------mold---------
+    public static final RegistryObject<Item> MOLD_CASING_BUCKSHOT = ITEMS.register("mold_casing_buckshot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_CASING_GRENADE = ITEMS.register("mold_casing_grenade",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_CASING_HEAVY = ITEMS.register("mold_casing_heavy",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_CASING_PISTOL = ITEMS.register("mold_casing_pistol",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_CASING_RIFLE = ITEMS.register("mold_casing_rifle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_CASING_SHELL = ITEMS.register("mold_casing_shell",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_GRAPESHOT = ITEMS.register("mold_grapeshot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_AP = ITEMS.register("mold_head_ap",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_GRENADE = ITEMS.register("mold_head_grenade",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_HEAVY = ITEMS.register("mold_head_heavy",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_PISTOL = ITEMS.register("mold_head_pistol",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_RIFLE = ITEMS.register("mold_head_rifle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_SHELL = ITEMS.register("mold_head_shell",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_HEAD_SLUG = ITEMS.register("mold_head_slug",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_MATERIAL_BARREL_RIFLED = ITEMS.register("mold_material_barrel_rifled",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_MATERIAL_BARREL_SMOOTH = ITEMS.register("mold_material_barrel_smooth",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOLD_MATERIAL_FIRING_PIN = ITEMS.register("mold_material_firing_pin",
+            () -> new Item(new Item.Properties()));
     //----------wire coil---------
+    public static final RegistryObject<Item> WIRECOIL_SOLDER = ITEMS.register("wirecoil_solder",
+            () -> new Item(new Item.Properties()));
+    //----------fluid related--------
+    public static final RegistryObject<Item> FLUID_CONTAINERS_BUCKET_NITRIC_ACID = ITEMS.register("fluid_containers_bucket_nitric_acid",
+            () -> new BucketItem(FluidRegistryHandler.SOURCE_NITRIC_ACID,
+                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)
+            )
+    );
     //----------utilities---------
     public static final RegistryObject<Item> DRAWING_COMPASS = ITEMS.register("drawing_compass",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RULER_METAL = ITEMS.register("ruler_metal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RULER_PLASTIC = ITEMS.register("ruler_plastic",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 }
+
