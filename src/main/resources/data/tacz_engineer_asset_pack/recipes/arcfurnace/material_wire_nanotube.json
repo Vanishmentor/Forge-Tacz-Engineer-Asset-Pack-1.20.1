@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "item": "immersiveengineering:dust_hop_graphite"
+    }
+  ],
+  "energy": 102400,
+  "input": {
+    "tag": "forge:string"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/carbon_fiber"
+      },
+      "count": 1
+    }
+  ],
+  "time": 1200
+}

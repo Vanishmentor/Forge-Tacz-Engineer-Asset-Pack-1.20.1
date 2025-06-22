@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_advanced_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:rods/cma"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_barrel_smooth_cma"
+  }
+}

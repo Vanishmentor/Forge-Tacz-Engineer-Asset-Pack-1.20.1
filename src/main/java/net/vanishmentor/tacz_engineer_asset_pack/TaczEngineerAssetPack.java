@@ -24,6 +24,8 @@ import net.vanishmentor.tacz_engineer_asset_pack.items.ItemRegistryHandler;
 import net.vanishmentor.tacz_engineer_asset_pack.mobEffects.MobEffectRegistryHandler;
 import org.slf4j.Logger;
 
+import static net.vanishmentor.tacz_engineer_asset_pack.items.ItemRegistryHandler.RULER_METAL;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TaczEngineerAssetPack.MOD_ID)
 public class TaczEngineerAssetPack
@@ -38,7 +40,6 @@ public class TaczEngineerAssetPack
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
-
         ItemRegistryHandler.register(modEventBus);
         FluidTypeRegistryHandler.register(modEventBus);
         BlockRegistryHandler.register(modEventBus);

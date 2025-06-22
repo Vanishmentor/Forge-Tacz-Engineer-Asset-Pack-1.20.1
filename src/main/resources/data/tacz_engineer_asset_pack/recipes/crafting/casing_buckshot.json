@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "tacz_engineer_asset_pack:crafting_material/casings/buckshot"
+    }
+  },
+  "pattern": [
+    "c c",
+    "c c",
+    " c "
+  ],
+  "result": {
+    "count": 5,
+    "item": "tacz_engineer_asset_pack:casing_buckshot"
+  },
+  "show_notification": true
+}

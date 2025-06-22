@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:casing_buckshot"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/casings/buckshot_complete"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:dyes"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:empty_shell"
+  }
+}

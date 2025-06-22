@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_screw"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:gunpart_hammer"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "forge:nuggets/copper"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/duraluminum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/copper"
+      }
+    }
+  ],
+  "energy": 51200,
+  "input": {
+    "tag": "forge:ingots/aluminum"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/duraluminum"
+      },
+      "count": 1
+    }
+  ],
+  "time": 100
+}

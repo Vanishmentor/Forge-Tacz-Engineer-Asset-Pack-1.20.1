@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "item": "immersiveengineering:hammer"
+    },
+    "s": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "hii",
+    " s ",
+    " i "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_gunpart_hammer_iron"
+  },
+  "show_notification": true
+}

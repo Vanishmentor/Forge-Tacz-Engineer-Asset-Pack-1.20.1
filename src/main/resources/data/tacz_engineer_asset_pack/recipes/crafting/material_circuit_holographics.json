@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:material_circuit_holographics_incomplete"
+    },
+    {
+      "item": "tacz_engineer_asset_pack:material_laser_transmitter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_circuit_holographics"
+  },
+  "show_notification": true
+}

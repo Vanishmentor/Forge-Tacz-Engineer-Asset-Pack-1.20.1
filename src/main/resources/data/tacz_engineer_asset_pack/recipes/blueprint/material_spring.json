@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/spring"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "tacz_engineer_asset_pack:material_spring"
+  }
+}

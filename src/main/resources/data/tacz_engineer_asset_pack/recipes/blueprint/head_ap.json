@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "specialBullet",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/heads/ap_full"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_ap_incomplete"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "tacz_engineer_asset_pack:head_ap"
+  }
+}

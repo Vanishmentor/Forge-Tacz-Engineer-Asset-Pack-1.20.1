@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "tacz_engineer_asset_pack:material_nitrocellulose"
+  },
+  "result": "tacz_engineer_asset_pack:material_nitropowder"
+}

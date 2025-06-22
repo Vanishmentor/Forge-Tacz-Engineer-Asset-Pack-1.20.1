@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:material_circuit_holographics"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_circuit_holographics_incomplete"
+  },
+  "show_notification": true
+}

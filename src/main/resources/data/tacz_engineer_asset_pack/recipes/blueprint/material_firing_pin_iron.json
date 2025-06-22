@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_screw"
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:rods/iron"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_firing_pin_iron"
+  }
+}

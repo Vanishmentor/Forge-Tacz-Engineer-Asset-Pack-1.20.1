@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 500,
+    "tag": "forge:nitric_acid"
+  },
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/material_nitrocellulose"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "tacz_engineer_asset_pack:material_nitrocellulose"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_high_energy_chemistry",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/saltpeter"
+      },
+      "count": 3
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:blaze_powder"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tacz_engineer_asset_pack:material_blazopowder"
+  }
+}

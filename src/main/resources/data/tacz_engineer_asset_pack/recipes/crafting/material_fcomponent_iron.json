@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "tacz_engineer_asset_pack:material_spring"
+    },
+    "c": {
+      "tag": "forge:ingots/iron"
+    },
+    "d": {
+      "tag": "forge:plates/iron"
+    },
+    "e": {
+      "tag": "forge:rods/iron"
+    },
+    "f": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "bdc",
+    "efe",
+    "cdb"
+  ],
+  "result": {
+    "item": "tacz_engineer_asset_pack:material_fcomponent_iron"
+  },
+  "show_notification": true
+}

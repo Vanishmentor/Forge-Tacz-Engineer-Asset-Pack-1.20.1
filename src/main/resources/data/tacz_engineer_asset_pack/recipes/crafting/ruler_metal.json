@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "tag": "tacz_engineer_asset_pack:crafting_material/metal_ruler"
+    },
+    "d": {
+      "tag": "forge:dyes"
+    }
+  },
+  "pattern": [
+    "dp ",
+    "p  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:ruler_metal"
+  },
+  "show_notification": true
+}

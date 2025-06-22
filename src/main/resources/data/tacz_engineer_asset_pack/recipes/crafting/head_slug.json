@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "tag": "tacz_engineer_asset_pack:crafting_material/heads/slug"
+    },
+    "h": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "pattern": [
+    " s ",
+    "shs"
+  ],
+  "result": {
+    "item": "tacz_engineer_asset_pack:head_slug"
+  },
+  "show_notification": true
+}

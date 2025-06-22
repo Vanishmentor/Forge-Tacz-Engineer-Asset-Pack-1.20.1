@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 100,
+    "tag": "forge:phenolic_resin"
+  },
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:casing_buckshot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "immersiveengineering:empty_shell"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "tacz_engineer_asset_pack:crafting_material/heads/slug"
+  },
+  "mold": "tacz_engineer_asset_pack:mold_head_slug",
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:head_slug"
+  }
+}

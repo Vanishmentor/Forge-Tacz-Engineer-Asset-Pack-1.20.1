@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/duraluminum"
+      }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ingots/duraluminum"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:plates/duraluminum"
+    },
+    "count": 1
+  }
+}

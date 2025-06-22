@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "minecraft:banners"
+    },
+    "a": {
+      "item": "tacz_engineer_asset_pack:pencil"
+    },
+    "c": {
+      "item": "tacz_engineer_asset_pack:drawing_compass"
+    },
+    "r": {
+      "tag": "tacz_engineer_asset_pack:rulers"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    " b ",
+    "acr",
+    "ppp"
+  ],
+  "result": {
+    "item": "immersiveengineering:blueprint",
+    "nbt": {
+      "blueprint": "bannerpatterns"
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_electronics",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/electrum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "tacz_engineer_asset_pack:material_electrolytic_capacitor"
+  }
+}

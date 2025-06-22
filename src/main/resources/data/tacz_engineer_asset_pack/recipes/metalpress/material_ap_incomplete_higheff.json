@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 4800,
+  "input": {
+    "tag": "tacz_engineer_asset_pack:crafting_material/heads/ap_core_higheff"
+  },
+  "mold": "tacz_engineer_asset_pack:mold_head_ap",
+  "result": {
+    "count": 9,
+    "item": "tacz_engineer_asset_pack:material_ap_incomplete"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "immersiveengineering:alloy",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/duraluminum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/copper"
+      }
+    }
+  ],
+  "input0": {
+    "tag": "forge:ingots/aluminum"
+  },
+  "input1": {
+    "tag": "forge:nuggets/copper"
+  },
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:ingots/duraluminum"
+    },
+    "count": 1
+  },
+  "time": 200
+}

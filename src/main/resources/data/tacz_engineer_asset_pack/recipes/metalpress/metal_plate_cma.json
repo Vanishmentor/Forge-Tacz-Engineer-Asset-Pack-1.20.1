@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/cma"
+      }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ingots/cma"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:plates/cma"
+    },
+    "count": 1
+  }
+}

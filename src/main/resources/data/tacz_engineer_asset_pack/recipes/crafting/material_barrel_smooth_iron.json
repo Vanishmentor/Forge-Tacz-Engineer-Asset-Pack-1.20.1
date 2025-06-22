@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "tag": "immersiveengineering:tools/hammers"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "r": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "pattern": [
+    "  h",
+    " r ",
+    "i  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_barrel_smooth_iron"
+  },
+  "show_notification": true
+}

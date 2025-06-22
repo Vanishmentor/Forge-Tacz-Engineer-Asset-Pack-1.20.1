@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#forge:plates/iron",
+    "#forge:plates/steel",
+    "#forge:plates/aluminum",
+    "#forge:plates/duraluminum",
+    "#forge:plates/zinc",
+    "#forge:plates/brass",
+    "#forge:plates/copper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#forge:nuggets/iron",
+    "#forge:nuggets/steel",
+    "#forge:nuggets/aluminum",
+    "#forge:nuggets/zinc",
+    "#forge:nuggets/brass",
+    "#forge:nuggets/copper",
+    "#forge:nuggets/lead",
+    "#forge:nuggets/uranium",
+    "#forge:nuggets/netherite"
+  ]
+}

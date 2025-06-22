@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:wirecutter"
+    },
+    "h": {
+      "item": "immersiveengineering:hammer"
+    },
+    "r": {
+      "tag": "forge:rods/iron"
+    },
+    "s": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    " c ",
+    "srh",
+    "is "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_firing_pin_iron"
+  },
+  "show_notification": true
+}

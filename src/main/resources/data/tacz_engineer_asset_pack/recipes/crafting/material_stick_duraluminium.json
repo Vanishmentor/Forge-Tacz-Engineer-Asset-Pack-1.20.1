@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "tag": "forge:ingots/duraluminum"
+    }
+  },
+  "pattern": [
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "tacz_engineer_asset_pack:material_stick_duraluminium",
+    "count": 4
+  },
+  "show_notification": true
+}

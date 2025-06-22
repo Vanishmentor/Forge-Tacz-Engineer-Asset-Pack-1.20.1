@@ -1,0 +1,43 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "forge:ingots/silver"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/netherite"
+      }
+    }
+  ],
+  "energy": 102400,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:ingots/netherite"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/cma"
+      },
+      "count": 3
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 800
+}

@@ -1,0 +1,46 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_electronics",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/laser_gem"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/laser_casing"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:glass"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/electrum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "immersiveengineering:circuits/logic"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_ingot_doped_quartz"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_laser_transmitter"
+  }
+}

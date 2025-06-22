@@ -1,0 +1,46 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_electronics",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/laser_casing"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:glass"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/aluminum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "immersiveengineering:circuits/logic"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:redstone_acid_bucket"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tacz_engineer_asset_pack:material_display"
+  }
+}

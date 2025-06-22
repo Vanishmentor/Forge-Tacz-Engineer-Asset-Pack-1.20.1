@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "tacz_engineer_asset_pack:casing_buckshot"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "r": {
+      "tag": "forge:dyes"
+    }
+  },
+  "pattern": [
+    "prp",
+    "prp",
+    " c "
+  ],
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:empty_shell"
+  },
+  "show_notification": true
+}

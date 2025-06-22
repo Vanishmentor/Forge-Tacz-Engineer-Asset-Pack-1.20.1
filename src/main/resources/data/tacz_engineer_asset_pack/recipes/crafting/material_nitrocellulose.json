@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:fluid_containers_bucket_nitric_acid"
+    },
+    {
+      "tag": "tacz_engineer_asset_pack:crafting_material/material_nitrocellulose"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "tacz_engineer_asset_pack:material_nitrocellulose"
+  },
+  "show_notification": true
+}

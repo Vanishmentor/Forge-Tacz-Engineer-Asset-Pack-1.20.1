@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "minecraft:air"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:barrier"
+  }
+}

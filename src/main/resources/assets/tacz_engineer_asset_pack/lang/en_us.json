@@ -6,7 +6,8 @@
   "item.tacz_engineer_asset_pack.casing_grenade": "Grenade Casing",
   "item.tacz_engineer_asset_pack.casing_heavy": "Large-Calibre Casing",
   "item.tacz_engineer_asset_pack.casing_shell": "Shell Casing",
-  "item.tacz_engineer_asset_pack.drawing_compass": "Drawing Compass",
+  "item.tacz_engineer_asset_pack.drawing_compass": "Drawing Compass With Pencil",
+  "item.tacz_engineer_asset_pack.drawing_compass_empty": "Drawing Compass",
   "item.tacz_engineer_asset_pack.head_ap": "Armor-Piercing Discarding Sabot",
   "item.tacz_engineer_asset_pack.head_grapeshot": "Grapeshot",
   "item.tacz_engineer_asset_pack.head_grenade": "Empty Grenade",
@@ -30,13 +31,14 @@
   "item.tacz_engineer_asset_pack.material_coldfusion": "Firearm Micro Cold Fusion Reactor",
   "item.tacz_engineer_asset_pack.material_deuterium": "Deuterium Canister",
   "item.tacz_engineer_asset_pack.material_display": "Liquid Quartz Display",
-  "item.tacz_engineer_asset_pack.material_electrolytic_capacitor": "Capacitor",
+  "item.tacz_engineer_asset_pack.material_electrolytic_capacitor": "Capacitors",
   "item.tacz_engineer_asset_pack.material_fcomponent_cma": "Advanced Synthetic Firearm Component",
   "item.tacz_engineer_asset_pack.material_fcomponent_cma_nanotube": "Advanced Synthetic Firearm Assembly",
   "item.tacz_engineer_asset_pack.material_fcomponent_iron": "Crude Firearm Component",
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic": "Polymer Firearm Component",
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic_duraluminium": "Polymer Firearm Assembly",
   "item.tacz_engineer_asset_pack.material_fcomponent_steel": "Firearm Component",
+  "item.tacz_engineer_asset_pack.material_fcomponent_brass": "Mechanical Firearm Component",
   "item.tacz_engineer_asset_pack.material_firing_pin_cma": "High Strength Firing Pin",
   "item.tacz_engineer_asset_pack.material_firing_pin_iron": "Crude Firing Pin",
   "item.tacz_engineer_asset_pack.material_firing_pin_steel": "Firing Pin",
@@ -91,6 +93,8 @@
 
   "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "9 Blue 1 Gold",
 
+  "fluid_type.tacz_engineer_asset_pack.nitric_acid_fluid": "Nitric Acid",
+
   "effect.tacz_engineer_asset_pack.nitrated_mobeffect": "Nitrated",
   "effect.tacz_engineer_asset_pack.nitrated_mobeffect.description": "You might explode under certain circumstances.",
 
@@ -99,5 +103,12 @@
   "item.immersiveengineering.gunpart_hammer": "Gun Hammer",
   "item.immersiveengineering.gunpart_barrel": "Steel Smoothbore Barrel",
 
-  "desc.immersiveengineering.info.blueprint.test_category": "Test Category"
+  "desc.immersiveengineering.info.blueprint.taczE_high_energy_chemistry": "High Energy Chemistry",
+  "desc.immersiveengineering.info.blueprint.taczE_firearm_components": "Firearm Components",
+  "desc.immersiveengineering.info.blueprint.taczE_advanced_firearm_components": "Advanced Firearm Components",
+  "desc.immersiveengineering.info.blueprint.taczE_advanced_weapon_power_system": "Advanced Weapon Power System",
+  "desc.immersiveengineering.info.blueprint.taczE_firearm_electronics": "Firearm Electronics",
+  "desc.immersiveengineering.info.blueprint.taczE_common_projectile_mold": "Common Projectile Mold",
+  "desc.immersiveengineering.info.blueprint.taczE_specialized_projectile_mold": "Specialized Projectile Mold",
+  "desc.immersiveengineering.info.blueprint.taczE_gunpart_mold": "Gun Parts Mold"
 }

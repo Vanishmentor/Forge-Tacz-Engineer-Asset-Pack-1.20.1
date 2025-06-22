@@ -1,0 +1,36 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "forge:dusts/sulfur"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/sulfur"
+      }
+    }
+  ],
+  "energy": 102400,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:gems/quartz"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_ingot_doped_quartz"
+      },
+      "count": 1
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 400
+}

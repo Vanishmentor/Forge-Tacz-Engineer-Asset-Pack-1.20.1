@@ -5,7 +5,8 @@
   "item.tacz_engineer_asset_pack.casing_grenade": "榴弹弹壳",
   "item.tacz_engineer_asset_pack.casing_heavy": "大口径弹弹壳",
   "item.tacz_engineer_asset_pack.casing_shell": "炮弹弹壳",
-  "item.tacz_engineer_asset_pack.drawing_compass": "圆规",
+  "item.tacz_engineer_asset_pack.drawing_compass": "带铅笔的圆规",
+  "item.tacz_engineer_asset_pack.drawing_compass_empty": "圆规",
   "item.tacz_engineer_asset_pack.head_ap": "钢针穿甲弹",
   "item.tacz_engineer_asset_pack.head_grapeshot": "散弹",
   "item.tacz_engineer_asset_pack.head_grenade": "空榴弹弹头",
@@ -36,6 +37,7 @@
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic": "聚合物枪械部件",
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic_duraluminium": "聚合物枪械装配体",
   "item.tacz_engineer_asset_pack.material_fcomponent_steel": "枪械部件",
+  "item.tacz_engineer_asset_pack.material_fcomponent_brass": "动力枪械部件",
   "item.tacz_engineer_asset_pack.material_firing_pin_cma": "瓷金撞针",
   "item.tacz_engineer_asset_pack.material_firing_pin_iron": "土制撞针",
   "item.tacz_engineer_asset_pack.material_firing_pin_steel": "撞针",
@@ -65,6 +67,7 @@
   "item.tacz_engineer_asset_pack.metal_ingot_duraluminium": "铝合金锭",
   "item.tacz_engineer_asset_pack.metal_plate_cma": "瓷金板",
   "item.tacz_engineer_asset_pack.metal_plate_duraluminium": "铝合金板",
+
   "item.tacz_engineer_asset_pack.mold_casing_buckshot": "金属模具：未完成的霰弹弹壳",
   "item.tacz_engineer_asset_pack.mold_casing_grenade": "金属模具：榴弹弹壳",
   "item.tacz_engineer_asset_pack.mold_casing_heavy": "金属模具：大口径弹弹壳",
@@ -82,11 +85,14 @@
   "item.tacz_engineer_asset_pack.mold_material_barrel_rifled": "金属模具：带膛线的枪管",
   "item.tacz_engineer_asset_pack.mold_material_barrel_smooth": "金属模具：滑膛枪管",
   "item.tacz_engineer_asset_pack.mold_material_firing_pin": "金属模具：撞针",
+
   "item.tacz_engineer_asset_pack.wirecoil_solder": "焊料线圈",
   "item.tacz_engineer_asset_pack.pencil": "铅笔",
   "item.tacz_engineer_asset_pack.ruler_metal": "金属尺",
   "item.tacz_engineer_asset_pack.ruler_plastic": "塑料尺",
   "item.tacz_engineer_asset_pack.fluid_containers_bucket_nitric_acid": "硝酸桶",
+
+  "fluid_type.tacz_engineer_asset_pack.nitric_acid_fluid": "硝酸",
 
   "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "九蓝一金",
 
@@ -96,7 +102,16 @@
   "item.immersiveengineering.empty_casing": "手枪弹弹壳",
   "item.immersiveengineering.empty_shell": "霰弹弹壳",
   "item.immersiveengineering.gunpart_hammer": "击锤",
-  "item.immersiveengineering.gunpart_barrel": "滑膛钢枪管"
+  "item.immersiveengineering.gunpart_barrel": "滑膛钢枪管",
+
+  "desc.immersiveengineering.info.blueprint.taczE_high_energy_chemistry": "高能化学",
+  "desc.immersiveengineering.info.blueprint.taczE_firearm_components": "枪械部件",
+  "desc.immersiveengineering.info.blueprint.taczE_advanced_firearm_components": "先进枪械部件",
+  "desc.immersiveengineering.info.blueprint.taczE_advanced_weapon_power_system": "先进武器动力系统",
+  "desc.immersiveengineering.info.blueprint.taczE_firearm_electronics": "枪械适配电子设备",
+  "desc.immersiveengineering.info.blueprint.taczE_common_projectile_mold": "普通弹药模具",
+  "desc.immersiveengineering.info.blueprint.taczE_specialized_projectile_mold": "特种弹药模具",
+  "desc.immersiveengineering.info.blueprint.taczE_gunpart_mold": "枪械部件摸具"
 
 
 }

@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 250,
+    "tag": "forge:phenolic_resin"
+  },
+  "inputs": [
+    {
+      "item": "immersiveengineering:mold_plate"
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/carbon_fiber"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tacz_engineer_asset_pack:material_plate_nanotube"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_electronics",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:wires/electrum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_ingot_doped_quartz"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "tacz_engineer_asset_pack:material_transistor"
+  }
+}

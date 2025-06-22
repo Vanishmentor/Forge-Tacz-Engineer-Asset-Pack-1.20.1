@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/heads/grapeshot"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:head_grapeshot"
+  }
+}

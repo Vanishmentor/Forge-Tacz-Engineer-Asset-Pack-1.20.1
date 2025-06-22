@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "tacz_engineer_asset_pack:crafting_material/casings/rifle"
+  },
+  "mold": "tacz_engineer_asset_pack:mold_casing_rifle",
+  "result": {
+    "count": 9,
+    "item": "tacz_engineer_asset_pack:casing_rifle"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_high_energy_chemistry",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/saltpeter"
+      },
+      "count": 3
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/aluminum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:dust_hop_graphite"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 5,
+    "item": "tacz_engineer_asset_pack:material_arc_powder"
+  }
+}

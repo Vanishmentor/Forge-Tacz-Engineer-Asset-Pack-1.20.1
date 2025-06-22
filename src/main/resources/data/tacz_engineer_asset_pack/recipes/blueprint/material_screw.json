@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/screw"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 32,
+    "item": "tacz_engineer_asset_pack:material_screw"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "tacz_engineer_asset_pack:crafting_material/primer"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 32,
+    "item": "tacz_engineer_asset_pack:material_primer"
+  }
+}

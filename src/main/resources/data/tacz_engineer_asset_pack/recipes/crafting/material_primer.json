@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "tacz_engineer_asset_pack:crafting_material/primer"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " r ",
+    " c "
+  ],
+  "result": {
+    "count": 24,
+    "item": "tacz_engineer_asset_pack:material_primer"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "tag": "forge:rods/all_metal"
+    },
+    "s": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    }
+  },
+  "pattern": [
+    "rs ",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:drawing_compass_empty"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 24,
+  "ingredient": {
+    "tag": "tacz_engineer_asset_pack:crafting_material/screw"
+  },
+  "result": "tacz_engineer_asset_pack:material_screw"
+}

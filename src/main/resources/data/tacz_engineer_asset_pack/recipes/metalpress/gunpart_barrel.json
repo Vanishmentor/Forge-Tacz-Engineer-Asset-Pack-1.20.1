@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:rods/steel"
+  },
+  "mold": "tacz_engineer_asset_pack:mold_material_barrel_smooth",
+  "result": {
+    "count": 1,
+    "item": "immersiveengineering:gunpart_barrel"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "tacz_engineer_asset_pack:crafting_material/screw"
+    },
+    "h": {
+      "item": "immersiveengineering:hammer"
+    },
+    "d": {
+      "item": "immersiveengineering:wirecutter"
+    }
+  },
+  "pattern": [
+    "  c",
+    "h d",
+    "c  "
+  ],
+  "result": {
+    "count": 32,
+    "item": "tacz_engineer_asset_pack:material_screw"
+  },
+  "show_notification": true
+}

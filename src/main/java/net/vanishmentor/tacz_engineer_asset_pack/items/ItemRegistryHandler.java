@@ -57,17 +57,29 @@ public class ItemRegistryHandler {
     public static final RegistryObject<Item> MATERIAL_BARREL_SMOOTH_IRON = ITEMS.register("material_barrel_smooth_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_BASTONE = ITEMS.register("material_bastone",
-            () -> new MaterialBAStoneItem(new Item.Properties()));
+            () -> new ItemWithDescription(new Item.Properties(),"tooltip.tacz_engineer_asset_pack.material_bastone.tooltip"));
     public static final RegistryObject<Item> MATERIAL_BLAZOPOWDER = ITEMS.register("material_blazopowder",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_INTEGRATED_CIRCUIT = ITEMS.register("material_integrated_circuit",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_LASER_TRANSMITTER = ITEMS.register("material_laser_transmitter",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_CIRCUIT_CONTROLLER = ITEMS.register("material_circuit_controller",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().craftRemainder(MATERIAL_INTEGRATED_CIRCUIT.get()).stacksTo(1)
+            )
+    );
     public static final RegistryObject<Item> MATERIAL_CIRCUIT_CONTROLLER_INCOMPLETE = ITEMS.register("material_circuit_controller_incomplete",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)
+            )
+    );
     public static final RegistryObject<Item> MATERIAL_CIRCUIT_HOLOGRAPHICS = ITEMS.register("material_circuit_holographics",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().craftRemainder(MATERIAL_LASER_TRANSMITTER.get()).stacksTo(1)
+            )
+    );
     public static final RegistryObject<Item> MATERIAL_CIRCUIT_HOLOGRAPHICS_INCOMPLETE = ITEMS.register("material_circuit_holographics_incomplete",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)
+            )
+    );
     public static final RegistryObject<Item> MATERIAL_COLDFUSION = ITEMS.register("material_coldfusion",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_DEUTERIUM = ITEMS.register("material_deuterium",
@@ -88,12 +100,17 @@ public class ItemRegistryHandler {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FCOMPONENT_STEEL = ITEMS.register("material_fcomponent_steel",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_FCOMPONENT_BRASS = ITEMS.register("material_fcomponent_brass",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_CMA = ITEMS.register("material_firing_pin_cma",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_IRON = ITEMS.register("material_firing_pin_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_STEEL = ITEMS.register("material_firing_pin_steel",
             () -> new Item(new Item.Properties()));
+
+
+
     public static final RegistryObject<Item> MATERIAL_FISSION = ITEMS.register("material_fission",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FUELROD = ITEMS.register("material_fuelrod",
@@ -103,10 +120,6 @@ public class ItemRegistryHandler {
     public static final RegistryObject<Item> MATERIAL_GUNPART_HAMMER_IRON = ITEMS.register("material_gunpart_hammer_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_INGOT_DOPED_QUARTZ = ITEMS.register("material_ingot_doped_quartz",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MATERIAL_INTEGRATED_CIRCUIT = ITEMS.register("material_integrated_circuit",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MATERIAL_LASER_TRANSMITTER = ITEMS.register("material_laser_transmitter",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_MAG_BRASS = ITEMS.register("material_mag_brass",
             () -> new Item(new Item.Properties()));
@@ -125,7 +138,7 @@ public class ItemRegistryHandler {
     public static final RegistryObject<Item> MATERIAL_PRIMER = ITEMS.register("material_primer",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_SCREW = ITEMS.register("material_screw",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(512)));
     public static final RegistryObject<Item> MATERIAL_SOLIDPROPELLANT = ITEMS.register("material_solidpropellant",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_SPRING = ITEMS.register("material_spring",
@@ -192,12 +205,31 @@ public class ItemRegistryHandler {
             )
     );
     //----------utilities---------
-    public static final RegistryObject<Item> DRAWING_COMPASS = ITEMS.register("drawing_compass",
-            () -> new Item(new Item.Properties()));
+
+    public static RegistryObject<Item> DRAWING_COMPASS_EMPTY = ITEMS.register("drawing_compass_empty",
+            () -> new Item(new Item.Properties().stacksTo(1)
+            )
+    );
+    public static RegistryObject<Item> DRAWING_COMPASS = ITEMS.register("drawing_compass",
+            () -> new Item(new Item.Properties().stacksTo(1).craftRemainder(DRAWING_COMPASS_EMPTY.get())
+            )
+    );
     public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil",
             () -> new Item(new Item.Properties()));
+
+    private static Item getRulerMetal() {
+        return RULER_METAL.get();
+    }
+
     public static final RegistryObject<Item> RULER_METAL = ITEMS.register("ruler_metal",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1).craftRemainder(getRulerMetal()))
+    );
+
+
+
+
+
+
     public static final RegistryObject<Item> RULER_PLASTIC = ITEMS.register("ruler_plastic",
             () -> new Item(new Item.Properties()));
 

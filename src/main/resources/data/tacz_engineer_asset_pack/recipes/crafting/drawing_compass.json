@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:pencil"
+    },
+    {
+      "item": "tacz_engineer_asset_pack:drawing_compass_empty"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:drawing_compass"
+  },
+  "show_notification": true
+}

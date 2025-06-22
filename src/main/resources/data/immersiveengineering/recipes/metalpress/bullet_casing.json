@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "item": "minecraft:air"
+  },
+  "mold": "immersiveengineering:mold_bullet_casing",
+  "result": {
+    "count": 1,
+    "item": "minecraft:barrier"
+  }
+}

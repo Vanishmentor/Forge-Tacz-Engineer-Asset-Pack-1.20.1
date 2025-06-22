@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:no_container_item",
+  "baseRecipe": {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "tag": "forge:dusts/saltpeter"
+      },
+      {
+        "tag": "forge:dusts/saltpeter"
+      },
+      {
+        "tag": "forge:dusts/saltpeter"
+      },
+      {
+        "tag": "forge:dusts/saltpeter"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      }
+    ],
+    "result": {
+      "item": "tacz_engineer_asset_pack:fluid_containers_bucket_nitric_acid"
+    }
+  }
+}

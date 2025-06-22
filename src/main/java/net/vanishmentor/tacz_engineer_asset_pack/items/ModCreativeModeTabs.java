@@ -55,7 +55,7 @@ public class ModCreativeModeTabs {
 //                        pOutput.accept(ItemRegistryHandler.MATERIAL_FCOMPONENT_PLASTIC_DURALUMINIUM.get());
                         pOutput.accept(ItemRegistryHandler.MATERIAL_FCOMPONENT_CMA.get());
 //                        pOutput.accept(ItemRegistryHandler.MATERIAL_FCOMPONENT_CMA_NANOTUBE.get());
-
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_FCOMPONENT_BRASS.get());
                         pOutput.accept(ItemRegistryHandler.MATERIAL_INGOT_DOPED_QUARTZ.get());
                         pOutput.accept(ItemRegistryHandler.MATERIAL_ELECTROLYTIC_CAPACITOR.get());
                         pOutput.accept(ItemRegistryHandler.MATERIAL_TRANSISTOR.get());
@@ -114,6 +114,7 @@ public class ModCreativeModeTabs {
 
                         //----------utilities---------
                         pOutput.accept(ItemRegistryHandler.DRAWING_COMPASS.get());
+                        pOutput.accept(ItemRegistryHandler.DRAWING_COMPASS_EMPTY.get());
                         pOutput.accept(ItemRegistryHandler.PENCIL.get());
                         pOutput.accept(ItemRegistryHandler.RULER_METAL.get());
                         pOutput.accept(ItemRegistryHandler.RULER_PLASTIC.get());
