@@ -37,7 +37,11 @@ public class TaczEngineerAssetPack
 
     public TaczEngineerAssetPack(FMLJavaModLoadingContext context)
     {
+
         IEventBus modEventBus = context.getModEventBus();
+
+        // Register the commonSetup method for modloading
+        modEventBus.addListener(this::commonSetup);
 
         ModCreativeModeTabs.register(modEventBus);
         ItemRegistryHandler.register(modEventBus);
@@ -47,8 +51,7 @@ public class TaczEngineerAssetPack
         MobEffectRegistryHandler.register(modEventBus);
 
 
-        // Register the commonSetup method for modloading
-        modEventBus.addListener(this::commonSetup);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         // Register the item to a creative tab

@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_common_projectile_mold",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      },
+      "count": 3
+    },
+    {
+      "item": "immersiveengineering:wirecutter"
+    }
+  ],
+  "result": {
+    "item": "tacz_engineer_asset_pack:mold_grapeshot"
+  }
+}
