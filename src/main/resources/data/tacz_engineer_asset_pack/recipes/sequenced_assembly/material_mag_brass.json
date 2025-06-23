@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/brass"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "item": "tacz_engineer_asset_pack:material_mag_brass",
+      "count": 8
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        },
+        {
+          "tag": "forge:nuggets/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        },
+        {
+          "tag": "forge:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+  }
+}

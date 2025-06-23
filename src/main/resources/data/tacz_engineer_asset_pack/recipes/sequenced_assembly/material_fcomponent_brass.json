@@ -1,0 +1,131 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/brass"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 150.0,
+      "item": "tacz_engineer_asset_pack:material_fcomponent_brass"
+    },
+    {
+      "chance": 8.0,
+      "item": "create:brass_sheet"
+    },
+    {
+      "chance": 8.0,
+      "item": "create:golden_sheet"
+    },
+    {
+      "chance": 8.0,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "chance": 5.0,
+      "item": "create:cogwheel"
+    },
+    {
+      "chance": 3.0,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:shaft"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_spring"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "amount": 1000,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "forge:plates/plastic"
+    },
+    "s": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    },
+    "p": {
+      "item": "tacz_engineer_asset_pack:material_spring"
+    }
+  },
+  "pattern": [
+    " c ",
+    "cpc",
+    "scs"
+  ],
+  "result": {
+    "count": 4,
+    "item": "tacz_engineer_asset_pack:material_mag_plastic"
+  },
+  "show_notification": true
+}

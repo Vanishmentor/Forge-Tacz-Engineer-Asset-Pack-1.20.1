@@ -3,7 +3,10 @@
   "category": "misc",
   "key": {
     "d": {
-      "tag": "tacz_engineer_asset_pack:crafting_material/casings/pistol"
+      "item": "immersiveengineering:empty_casing"
+    },
+    "g": {
+      "item": "tacz_engineer_asset_pack:material_nitropowder"
     },
     "a": {
       "item": "tacz_engineer_asset_pack:pencil"
@@ -13,9 +16,6 @@
     },
     "r": {
       "tag": "tacz_engineer_asset_pack:rulers"
-    },
-    "g": {
-      "tag": "forge:gunpowder"
     },
     "p": {
       "item": "minecraft:paper"
@@ -29,7 +29,7 @@
   "result": {
     "item": "immersiveengineering:blueprint",
     "nbt": {
-      "blueprint": "bullet"
+      "blueprint": "specialBullet"
     }
   },
   "show_notification": true

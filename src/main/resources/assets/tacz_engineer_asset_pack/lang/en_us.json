@@ -90,6 +90,10 @@
   "item.tacz_engineer_asset_pack.ruler_metal": "Metal Ruler",
   "item.tacz_engineer_asset_pack.ruler_plastic": "Plastic Ruler",
   "item.tacz_engineer_asset_pack.fluid_containers_bucket_nitric_acid": "Bucket of Nitric Acid",
+  "item.tacz_engineer_asset_pack.material_mag_brass_incomplete": "Incomplete Brass Magazine",
+  "item.tacz_engineer_asset_pack.material_fcomponent_brass_incomplete": "Incomplete Mechanical Firearm Component",
+
+
 
   "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "9 Blue 1 Gold",
 

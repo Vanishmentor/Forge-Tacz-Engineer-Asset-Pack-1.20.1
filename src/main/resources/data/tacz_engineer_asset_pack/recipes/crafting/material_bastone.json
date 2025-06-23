@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "tag": "forge:dusts/gold"
+    },
+    "b": {
+      "tag": "forge:dyes/light_blue"
+    },
+    "a": {
+      "tag": "forge:gems/amethyst"
+    }
+  },
+  "pattern": [
+    "bgb",
+    "bab",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_bastone"
+  },
+  "show_notification": true
+}

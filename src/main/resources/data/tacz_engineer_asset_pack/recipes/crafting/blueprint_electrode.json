@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "d": {
-      "tag": "tacz_engineer_asset_pack:crafting_material/casings/pistol"
+      "item": "immersiveengineering:graphite_electrode"
     },
     "a": {
       "item": "tacz_engineer_asset_pack:pencil"
@@ -14,23 +14,21 @@
     "r": {
       "tag": "tacz_engineer_asset_pack:rulers"
     },
-    "g": {
-      "tag": "forge:gunpowder"
-    },
     "p": {
       "item": "minecraft:paper"
     }
   },
   "pattern": [
-    "gdg",
+    " d ",
     "acr",
     "ppp"
   ],
   "result": {
     "item": "immersiveengineering:blueprint",
     "nbt": {
-      "blueprint": "bullet"
-    }
+      "blueprint": "electrode"
+    },
+    "count": 1
   },
   "show_notification": true
 }

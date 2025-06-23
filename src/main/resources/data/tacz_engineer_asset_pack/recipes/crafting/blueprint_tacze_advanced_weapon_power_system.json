@@ -2,8 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "d": {
-      "tag": "tacz_engineer_asset_pack:crafting_material/casings/pistol"
+    "x": {
+      "item": "immersiveengineering:toolupgrade_railgun_capacitors"
+    },
+    "y": {
+      "item": "tacz_engineer_asset_pack:material_deuterium"
+    },
+    "z": {
+      "tag": "forge:ingots/uranium"
     },
     "a": {
       "item": "tacz_engineer_asset_pack:pencil"
@@ -14,22 +20,19 @@
     "r": {
       "tag": "tacz_engineer_asset_pack:rulers"
     },
-    "g": {
-      "tag": "forge:gunpowder"
-    },
     "p": {
       "item": "minecraft:paper"
     }
   },
   "pattern": [
-    "gdg",
+    "xyz",
     "acr",
     "ppp"
   ],
   "result": {
     "item": "immersiveengineering:blueprint",
     "nbt": {
-      "blueprint": "bullet"
+      "blueprint": "taczE_advanced_weapon_power_system"
     }
   },
   "show_notification": true

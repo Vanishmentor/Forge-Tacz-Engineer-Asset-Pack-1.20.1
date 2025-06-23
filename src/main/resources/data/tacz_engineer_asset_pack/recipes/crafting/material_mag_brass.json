@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "forge:plates/brass"
+    },
+    "s": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    },
+    "p": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "pattern": [
+    " c ",
+    "cpc",
+    "scs"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tacz_engineer_asset_pack:material_mag_brass"
+  },
+  "show_notification": true
+}

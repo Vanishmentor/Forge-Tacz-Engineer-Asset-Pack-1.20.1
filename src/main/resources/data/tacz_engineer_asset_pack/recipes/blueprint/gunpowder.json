@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_high_energy_chemistry",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/saltpeter"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:dusts/sulfur"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "tag": "minecraft:coals"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 7,
+    "item": "minecraft:gunpowder"
+  }
+}

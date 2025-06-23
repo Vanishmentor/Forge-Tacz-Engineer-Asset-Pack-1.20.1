@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_firearm_components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      },
+      "count": 3
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_screw"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_spring"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tacz_engineer_asset_pack:material_mag_steel"
+  }
+}

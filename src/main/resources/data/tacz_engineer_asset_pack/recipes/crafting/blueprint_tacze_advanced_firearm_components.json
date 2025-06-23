@@ -2,8 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "d": {
-      "tag": "tacz_engineer_asset_pack:crafting_material/casings/pistol"
+    "x": {
+      "item": "immersiveengineering:gunpart_hammer"
+    },
+    "y": {
+      "item": "tacz_engineer_asset_pack:material_barrel_rifled_steel"
+    },
+    "z": {
+      "item": "tacz_engineer_asset_pack:material_firing_pin_steel"
     },
     "a": {
       "item": "tacz_engineer_asset_pack:pencil"
@@ -14,22 +20,19 @@
     "r": {
       "tag": "tacz_engineer_asset_pack:rulers"
     },
-    "g": {
-      "tag": "forge:gunpowder"
-    },
     "p": {
       "item": "minecraft:paper"
     }
   },
   "pattern": [
-    "gdg",
+    "xyz",
     "acr",
     "ppp"
   ],
   "result": {
     "item": "immersiveengineering:blueprint",
     "nbt": {
-      "blueprint": "bullet"
+      "blueprint": "taczE_advanced_firearm_components"
     }
   },
   "show_notification": true

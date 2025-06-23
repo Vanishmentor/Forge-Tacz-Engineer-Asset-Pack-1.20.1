@@ -1,0 +1,46 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "taczE_advanced_weapon_power_system",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_circuit_controller"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:toolupgrade_railgun_capacitors"
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:wirecoil_electrum"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      },
+      "count": 6
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_fuelrod"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "item": "tacz_engineer_asset_pack:material_screw"
+      },
+      "count": 32
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_fission"
+  }
+}

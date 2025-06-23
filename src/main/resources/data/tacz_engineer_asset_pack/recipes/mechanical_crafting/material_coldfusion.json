@@ -1,0 +1,59 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "S": {
+      "item": "tacz_engineer_asset_pack:material_screw"
+    },
+    "Z": {
+      "tag": "forge:ingots/zinc"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "item": "create:blaze_burner"
+    },
+    "E": {
+      "item": "create:steam_engine"
+    },
+    "X": {
+      "item": "create:stressometer"
+    },
+    "Y": {
+      "item": "create:speedometer"
+    },
+    "N": {
+      "tag": "forge:ingots/netherite"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "I": {
+      "item": "create:portable_fluid_interface"
+    },
+    "K": {
+      "item": "create:mechanical_pump"
+    },
+    "V": {
+      "item": "create:fluid_valve"
+    },
+    "D": {
+      "item": "tacz_engineer_asset_pack:material_deuterium"
+    }
+  },
+  "pattern": [
+    "SZMZS",
+    "PBEBX",
+    "PNTNY",
+    "IKVMP",
+    "SPDPS"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tacz_engineer_asset_pack:material_coldfusion"
+  }
+}

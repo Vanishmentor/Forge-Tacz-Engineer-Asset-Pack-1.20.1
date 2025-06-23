@@ -10,6 +10,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.vanishmentor.tacz_engineer_asset_pack.TaczEngineerAssetPack;
 import net.vanishmentor.tacz_engineer_asset_pack.fluids.FluidRegistryHandler;
 
+import java.util.function.Supplier;
+
 public class ItemRegistryHandler {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TaczEngineerAssetPack.MOD_ID);
@@ -80,8 +82,7 @@ public class ItemRegistryHandler {
             () -> new Item(new Item.Properties().stacksTo(1)
             )
     );
-    public static final RegistryObject<Item> MATERIAL_COLDFUSION = ITEMS.register("material_coldfusion",
-            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> MATERIAL_DEUTERIUM = ITEMS.register("material_deuterium",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_DISPLAY = ITEMS.register("material_display",
@@ -100,28 +101,22 @@ public class ItemRegistryHandler {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FCOMPONENT_STEEL = ITEMS.register("material_fcomponent_steel",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MATERIAL_FCOMPONENT_BRASS = ITEMS.register("material_fcomponent_brass",
-            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_CMA = ITEMS.register("material_firing_pin_cma",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_IRON = ITEMS.register("material_firing_pin_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FIRING_PIN_STEEL = ITEMS.register("material_firing_pin_steel",
             () -> new Item(new Item.Properties()));
-
-
-
     public static final RegistryObject<Item> MATERIAL_FISSION = ITEMS.register("material_fission",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MATERIAL_FUELROD = ITEMS.register("material_fuelrod",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_FUSION = ITEMS.register("material_fusion",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MATERIAL_GUNPART_HAMMER_IRON = ITEMS.register("material_gunpart_hammer_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_INGOT_DOPED_QUARTZ = ITEMS.register("material_ingot_doped_quartz",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MATERIAL_MAG_BRASS = ITEMS.register("material_mag_brass",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MATERIAL_MAG_IRON = ITEMS.register("material_mag_iron",
             () -> new Item(new Item.Properties()));
@@ -217,21 +212,28 @@ public class ItemRegistryHandler {
     public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil",
             () -> new Item(new Item.Properties()));
 
-    private static Item getRulerMetal() {
-        return RULER_METAL.get();
-    }
 
     public static final RegistryObject<Item> RULER_METAL = ITEMS.register("ruler_metal",
-            () -> new Item(new Item.Properties().stacksTo(1).craftRemainder(getRulerMetal()))
+            () -> new ItemCraftingTool(new Item.Properties().stacksTo(1).defaultDurability(6)
+            )
     );
 
-
-
-
-
-
     public static final RegistryObject<Item> RULER_PLASTIC = ITEMS.register("ruler_plastic",
+            () -> new ItemCraftingTool(new Item.Properties().stacksTo(1).defaultDurability(2)
+            )
+    );
+
+    //----------[create]---------
+    public static final RegistryObject<Item> MATERIAL_FCOMPONENT_BRASS = ITEMS.register("material_fcomponent_brass",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_FCOMPONENT_BRASS_INCOMPLETE = ITEMS.register("material_fcomponent_brass_incomplete",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_MAG_BRASS = ITEMS.register("material_mag_brass",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_MAG_BRASS_INCOMPLETE = ITEMS.register("material_mag_brass_incomplete",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_COLDFUSION = ITEMS.register("material_coldfusion",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
