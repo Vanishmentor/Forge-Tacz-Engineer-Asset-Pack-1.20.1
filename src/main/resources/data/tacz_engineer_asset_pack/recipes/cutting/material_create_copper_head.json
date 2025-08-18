@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/copper"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 64,
+      "item": "tacz_engineer_asset_pack:material_create_copper_head"
+    }
+  ]
+}

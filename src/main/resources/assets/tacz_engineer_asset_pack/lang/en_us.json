@@ -1,6 +1,11 @@
 {
   "creativetab.tacz_engineer_asset_pack_tab" : "Timeless And Classic Engineer Asset Pack",
 
+
+
+
+
+
   "item.tacz_engineer_asset_pack.casing_rifle": "Rifle Casing",
   "item.tacz_engineer_asset_pack.casing_buckshot": "Incomplete Buckshot Casing",
   "item.tacz_engineer_asset_pack.casing_grenade": "Grenade Casing",
@@ -28,7 +33,7 @@
   "item.tacz_engineer_asset_pack.material_circuit_controller_incomplete": "Incomplete Firearm Controller Circuit",
   "item.tacz_engineer_asset_pack.material_circuit_holographics": "Firearm Holographic Circuit",
   "item.tacz_engineer_asset_pack.material_circuit_holographics_incomplete": "Incomplete Firearm Holographic Circuit",
-  "item.tacz_engineer_asset_pack.material_coldfusion": "Firearm Micro Cold Fusion Reactor",
+  "item.tacz_engineer_asset_pack.material_coldfusion": "[Create]Firearm Micro Cold Fusion Reactor",
   "item.tacz_engineer_asset_pack.material_deuterium": "Deuterium Canister",
   "item.tacz_engineer_asset_pack.material_display": "Liquid Quartz Display",
   "item.tacz_engineer_asset_pack.material_electrolytic_capacitor": "Capacitors",
@@ -38,7 +43,7 @@
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic": "Polymer Firearm Component",
   "item.tacz_engineer_asset_pack.material_fcomponent_plastic_duraluminium": "Polymer Firearm Assembly",
   "item.tacz_engineer_asset_pack.material_fcomponent_steel": "Firearm Component",
-  "item.tacz_engineer_asset_pack.material_fcomponent_brass": "Mechanical Firearm Component",
+  "item.tacz_engineer_asset_pack.material_fcomponent_brass": "[Create]Mechanical Firearm Component",
   "item.tacz_engineer_asset_pack.material_firing_pin_cma": "High Strength Firing Pin",
   "item.tacz_engineer_asset_pack.material_firing_pin_iron": "Crude Firing Pin",
   "item.tacz_engineer_asset_pack.material_firing_pin_steel": "Firing Pin",
@@ -49,7 +54,7 @@
   "item.tacz_engineer_asset_pack.material_ingot_doped_quartz": "Doped Quartz",
   "item.tacz_engineer_asset_pack.material_integrated_circuit": "Integrated Circuit",
   "item.tacz_engineer_asset_pack.material_laser_transmitter": "Laser Transmitter",
-  "item.tacz_engineer_asset_pack.material_mag_brass": "Brass Magazine",
+  "item.tacz_engineer_asset_pack.material_mag_brass": "[Create]Brass Magazine",
   "item.tacz_engineer_asset_pack.material_mag_iron": "Iron Magazine",
   "item.tacz_engineer_asset_pack.material_mag_plastic": "Polymer Magazine",
   "item.tacz_engineer_asset_pack.material_mag_steel": "Steel Magazine",
@@ -93,10 +98,6 @@
   "item.tacz_engineer_asset_pack.material_mag_brass_incomplete": "Incomplete Brass Magazine",
   "item.tacz_engineer_asset_pack.material_fcomponent_brass_incomplete": "Incomplete Mechanical Firearm Component",
 
-
-
-  "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "9 Blue 1 Gold",
-
   "fluid_type.tacz_engineer_asset_pack.nitric_acid_fluid": "Nitric Acid",
 
   "effect.tacz_engineer_asset_pack.nitrated_mobeffect": "Nitrated",
@@ -114,5 +115,68 @@
   "desc.immersiveengineering.info.blueprint.taczE_firearm_electronics": "Firearm Electronics",
   "desc.immersiveengineering.info.blueprint.taczE_common_projectile_mold": "Common Projectile Mold",
   "desc.immersiveengineering.info.blueprint.taczE_specialized_projectile_mold": "Specialized Projectile Mold",
-  "desc.immersiveengineering.info.blueprint.taczE_gunpart_mold": "Gun Parts Mold"
+  "desc.immersiveengineering.info.blueprint.taczE_gunpart_mold": "Gun Parts Mold",
+
+
+
+  "tooltip.tacz_engineer_asset_pack.casing_rifle.tooltip": "Crafted by steel, duraluminum, brass, or polymer",
+  "tooltip.tacz_engineer_asset_pack.casing_buckshot.tooltip": "Crafted by steel, duraluminum, or brass",
+  "tooltip.tacz_engineer_asset_pack.casing_grenade.tooltip": "Crafted by a wide range of material",
+  "tooltip.tacz_engineer_asset_pack.casing_heavy.tooltip": "Crafted by steel, duraluminum, brass, or polymer",
+  "tooltip.tacz_engineer_asset_pack.casing_shell.tooltip": "Crafted by steel, duraluminum, or brass",
+  "tooltip.tacz_engineer_asset_pack.head_ap.tooltip": "\"It can penetrate the thickest armor.\"",
+  "tooltip.tacz_engineer_asset_pack.head_grapeshot.tooltip": "Crafted by a wide range of material",
+  "tooltip.tacz_engineer_asset_pack.head_grenade.tooltip": "Crafted by steel or brass",
+  "tooltip.tacz_engineer_asset_pack.head_heavy.tooltip": "Crafted bu steel, brass, or depleted uranium",
+  "tooltip.tacz_engineer_asset_pack.head_pistol.tooltip": "Crafted by a wide range of material",
+  "tooltip.tacz_engineer_asset_pack.head_rifle.tooltip": "Crafted bu steel, brass, lead, or depleted uranium",
+  "tooltip.tacz_engineer_asset_pack.head_shell.tooltip": "Crafted by steel or brass",
+  "tooltip.tacz_engineer_asset_pack.head_slug.tooltip": "Crafted by a wide range of material",
+  "tooltip.tacz_engineer_asset_pack.material_ap_incomplete.tooltip": "Hard metallic core of APFSDS\nAdd sabot on workbench to complete it\nCrafted by steel, netherite, depleted uranium, or ceramo-metal alloy",
+  "tooltip.tacz_engineer_asset_pack.material_arc_powder.tooltip": "Induces C-C cold fusion under high power current and certain pressure",
+  "tooltip.tacz_engineer_asset_pack.material_blazopowder.tooltip": "Very high combustion speed, suitable as an explosive rather than a propellant",
+  "tooltip.tacz_engineer_asset_pack.material_nitropowder.tooltip": "It revolutionized gunpowder technology",
+  "tooltip.tacz_engineer_asset_pack.metal_ingot_cma.tooltip": "Engineering research: +2000",
+  "tooltip.tacz_engineer_asset_pack.material_fission.tooltip": "Micro fission reactor powered by military grade concentrated uranium",
+  "tooltip.tacz_engineer_asset_pack.material_fusion.tooltip": "A small magnetic trap that allows fusion of hand-extracted deuterium to happen",
+  "tooltip.tacz_engineer_asset_pack.material_wire_nanotube.tooltip": "\"YOU ARE SUCH A DEMON.\"",
+  "tooltip.tacz_engineer_asset_pack.material_transistor.tooltip": "\"You can do a lot of amazing things with it.\"",
+  "tooltip.tacz_engineer_asset_pack.drawing_compass_empty.tooltip": "Craft it with a pencil to use it",
+  "tooltip.tacz_engineer_asset_pack.drawing_compass.tooltip": "Used for drawing blueprint",
+  "tooltip.tacz_engineer_asset_pack.pencil.tooltip": "Used for drawing blueprint",
+  "tooltip.tacz_engineer_asset_pack.ruler_plastic.tooltip": "Used for drawing blueprint",
+  "tooltip.tacz_engineer_asset_pack.ruler_metal.tooltip": "Used for drawing blueprint",
+  "tooltip.tacz_engineer_asset_pack.material_coldfusion.tooltip": "\"Tell Fleishmann and Pon, we did it.\"",
+
+  "tooltip.tacz_engineer_asset_pack.material_bastone.tooltip": "9 Blue 1 Gold",
+
+  "item.tacz_engineer_asset_pack.material_create_brass_casing": "[Create]Brass Casing",
+  "item.tacz_engineer_asset_pack.material_create_brass_casing_incomplete": "[Create]Incomplete Brass Casing",
+  "item.tacz_engineer_asset_pack.material_create_brass_casing_large": "[Create]Large Brass Casing",
+  "item.tacz_engineer_asset_pack.material_create_brass_casing_large_incomplete": "[Create]Incomplete Large Brass Casing",
+  "item.tacz_engineer_asset_pack.material_create_copper_casing": "[Create]Copper Casing",
+  "item.tacz_engineer_asset_pack.material_create_copper_casing_incomplete": "[Create]Incomplete Copper Casing",
+  "item.tacz_engineer_asset_pack.material_create_copper_casing_large": "[Create]Large Copper Casing",
+  "item.tacz_engineer_asset_pack.material_create_copper_casing_large_incomplete": "[Create]Incomplete Large Copper Casing",
+  "item.tacz_engineer_asset_pack.material_create_copper_head": "[Create]Pneumatic Pistol Bullet",
+  "item.tacz_engineer_asset_pack.material_create_grenade_head": "[Create]Pneumatic Grenade",
+  "item.tacz_engineer_asset_pack.material_create_iron_head": "[Create]Armour-Piercing Bullet",
+  "item.tacz_engineer_asset_pack.material_create_pressureized_incomplete": "[Create]Empty Air Bottle",
+  "item.tacz_engineer_asset_pack.material_create_pressurized": "[Create]Pressurized Air Bottle",
+  "item.tacz_engineer_asset_pack.material_create_shell_head": "[Create]Warhead",
+
+  "item.tacz_engineer_asset_pack.material_create_grenade_head_incomplete": "[Create]Pneumatic Pneumatic Grenade",
+  "item.tacz_engineer_asset_pack.material_create_shell_head_incomplete": "[Create]Incomplete Warhead",
+  "item.tacz_engineer_asset_pack.material_create_ammo_40mmhe_incomplete": "[Create]Incomplete 40mm HE",
+  "item.tacz_engineer_asset_pack.material_create_ammo_gas_pistol_ammo_incomplete": "[Create]Incomplete Pneumatic Pistol Ammo",
+  "item.tacz_engineer_asset_pack.material_create_ammo_gernade_incomplete": "[Create]Incomplete Pneumatic Gernade",
+  "item.tacz_engineer_asset_pack.material_create_ammo_rbapb_incomplete": "[Create]Incomplete Rimmed Blunt AP Ammo",
+  "item.tacz_engineer_asset_pack.material_create_ammo_slap_incomplete": "[Create]Incomplete SLAP Ammo",
+
+  "item.tacz_engineer_asset_pack.material_create_nitropowder_small": "[Create]Small Pile of Nitropowder",
+  "item.tacz_engineer_asset_pack.material_create_nitropowder_tiny": "[Create]Tiny Pile of Nitropowder",
+  "item.tacz_engineer_asset_pack.material_create_blazo_powder_small": "[Create]Tiny Pile of Blazopowder",
+  "item.tacz_engineer_asset_pack.material_create_primer": "[Create]Soft Primer",
+  "item.tacz_engineer_asset_pack.material_create_primer_incomplete": "[Create]Incomplete Soft Primer",
+  "item.tacz_engineer_asset_pack.material_create_redstone_tiny": "[Create]Tiny Pile of Redstone"
 }

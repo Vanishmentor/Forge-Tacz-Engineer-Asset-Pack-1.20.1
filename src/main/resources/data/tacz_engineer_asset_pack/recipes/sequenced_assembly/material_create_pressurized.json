@@ -1,0 +1,102 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/copper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "tacz_engineer_asset_pack:material_create_pressurized",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        },
+        {
+          "item": "minecraft:dried_kelp"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tacz_engineer_asset_pack:material_create_pressureized_incomplete"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 16,
+      "item": "tacz_engineer_asset_pack:material_create_brass_casing_large_incomplete"
+    }
+  ]
+}

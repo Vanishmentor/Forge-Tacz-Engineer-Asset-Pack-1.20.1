@@ -122,6 +122,27 @@ public class ModCreativeModeTabs {
                         //----------IE---------
                         pOutput.accept(ItemRegistryHandler.RULER_PLASTIC.get());
 
+                        // 0.2 create patch
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_COPPER_CASING.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_COPPER_CASING_LARGE.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_BRASS_CASING.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_BRASS_CASING_LARGE.get());
+
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_BRASS_CASING_INCOMPLETE.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_BRASS_CASING_LARGE_INCOMPLETE.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_COPPER_CASING_INCOMPLETE.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_COPPER_CASING_LARGE_INCOMPLETE.get());
+
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_COPPER_HEAD.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_GRENADE_HEAD.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_IRON_HEAD.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_SHELL_HEAD.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_PRESSURIZED.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_NITROPOWDER_SMALL.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_NITROPOWDER_TINY.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_BLAZO_POWDER_SMALL.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_PRIMER.get());
+                        pOutput.accept(ItemRegistryHandler.MATERIAL_CREATE_REDSTONE_TINY.get());
 
 
                     })

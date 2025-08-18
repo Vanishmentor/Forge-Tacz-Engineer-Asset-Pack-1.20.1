@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:material_create_brass_casing_incomplete"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "tacz_engineer_asset_pack:material_create_brass_casing"
+    }
+  ]
+}

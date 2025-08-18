@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:material_blazopowder"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tacz_engineer_asset_pack:material_create_blazo_powder_small"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "tag": "tacz_engineer_asset_pack:crafting_material/material_nitrocellulose"
+    },
+    {
+      "amount": 500,
+      "fluid": "tacz_engineer_asset_pack:nitric_acid_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "tacz_engineer_asset_pack:material_nitrocellulose",
+      "count": 2
+    }
+  ]
+}

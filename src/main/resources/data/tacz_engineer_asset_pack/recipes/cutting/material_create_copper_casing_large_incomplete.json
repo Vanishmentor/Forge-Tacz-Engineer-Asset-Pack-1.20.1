@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 16,
+      "item": "tacz_engineer_asset_pack:material_create_copper_casing_large_incomplete"
+    }
+  ]
+}

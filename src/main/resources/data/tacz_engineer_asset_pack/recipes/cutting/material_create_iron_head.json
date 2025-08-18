@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 32,
+      "item": "tacz_engineer_asset_pack:material_create_iron_head"
+    }
+  ]
+}

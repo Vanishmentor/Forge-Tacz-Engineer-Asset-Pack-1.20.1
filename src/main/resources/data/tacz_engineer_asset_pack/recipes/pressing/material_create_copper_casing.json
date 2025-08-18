@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tacz_engineer_asset_pack:material_create_copper_casing_incomplete"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "tacz_engineer_asset_pack:material_create_copper_casing"
+    }
+  ]
+}

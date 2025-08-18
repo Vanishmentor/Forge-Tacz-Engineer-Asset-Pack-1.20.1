@@ -31,7 +31,7 @@
           "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
         },
         {
-          "tag": "forge:nuggets/gold"
+          "item": "tacz_engineer_asset_pack:material_screw"
         }
       ],
       "results": [
@@ -41,10 +41,13 @@
       ]
     },
     {
-      "type": "create:pressing",
+      "type": "create:deploying",
       "ingredients": [
         {
           "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        },
+        {
+          "tag": "forge:nuggets/gold"
         }
       ],
       "results": [
@@ -61,6 +64,19 @@
         },
         {
           "tag": "forge:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_mag_brass_incomplete"
         }
       ],
       "results": [

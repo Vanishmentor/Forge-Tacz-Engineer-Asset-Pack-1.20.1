@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:dusts/saltpeter",
+      "count": 3
+    }
+  ],
+  "results": [
+    {
+      "item": "tacz_engineer_asset_pack:material_blazopowder",
+      "count": 3
+    }
+  ]
+}

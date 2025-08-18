@@ -94,6 +94,22 @@
       ]
     },
     {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
       "type": "create:filling",
       "ingredients": [
         {
@@ -103,6 +119,22 @@
           "amount": 1000,
           "fluid": "minecraft:water",
           "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tacz_engineer_asset_pack:material_fcomponent_brass_incomplete"
+        },
+        {
+          "item": "tacz_engineer_asset_pack:material_screw"
         }
       ],
       "results": [

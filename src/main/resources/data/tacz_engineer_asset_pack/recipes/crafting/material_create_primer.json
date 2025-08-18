@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/zinc"
+    },
+    {
+      "item": "tacz_engineer_asset_pack:material_create_redstone_tiny"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "tacz_engineer_asset_pack:material_create_primer"
+  }
+}
